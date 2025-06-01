@@ -81,13 +81,6 @@ Contact us via **ntando.nonjola@ntandoagriculture.co.za** for more information.
 
 This website and its content are owned and managed by Ntando Agriculture. Unauthorized use is prohibited.
 
-References
-
-Pexels. 2025. Farm Pictures. 
-Available at: https://www.bing.com/ck/a?!&&p=90e47ddc6355cd6270a3aa294336080cec9b3c3cb5063cf574939bd97ae544b0JmltdHM9MTc0Mzk4NDAwMA&ptn=3&ver=2&hsh=4&fclid=0d29d2df-5825-6d74-34dd-c62f59256c0c&psq=farming+pictres&u=a1aHR0cHM6Ly93d3cucGV4ZWxzLmNvbS9zZWFyY2gvZmFybS8&ntb=1[Accessed on: 07 April 2025.]
-
- Link: https://github.com/NtandoNondyola
-
  Part 3: POE JavaScript
 
  ├── FarmJs/
@@ -133,8 +126,9 @@ Available at: https://www.bing.com/ck/a?!&&p=90e47ddc6355cd6270a3aa294336080cec9
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/NtandoAgriculture.git
-   cd NtandoAgriculture
+   git clone [https://github.com/your-username/NtandoAgriculture.git
+   cd NtandoAgriculture](https://github.com/NtandoNondyola)
+   
  🙌 Acknowledgements
 Designed and developed by Ntando Nonjola
 Inspired by South African agricultural growth and innovation
@@ -143,3 +137,20 @@ If you’d like to connect or contribute:
 
 Email:ST10452468@rcconnect.edu.za
 GitHub: https://github.com/NtandoNondyola
+
+
+---------------------------------------------------------------------------------------------
+
+References
+
+
+Geeks for Geeks. 2025. How to make ajax call from JavaScript. Geeks for Geeks. [online].
+Available at: https://www.geeksforgeeks.org/how-to-make-ajax-call-from-javascript/
+[Accessed on: 20 May 2025].
+
+Pexels. 2025. Farm Pictures. 
+Available at: https://www.bing.com/ck/a?!&&p=90e47ddc6355cd6270a3aa294336080cec9b3c3cb5063cf574939bd97ae544b0JmltdHM9MTc0Mzk4NDAwMA&ptn=3&ver=2&hsh=4&fclid=0d29d2df-5825-6d74-34dd-c62f59256c0c&psq=farming+pictres&u=a1aHR0cHM6Ly93d3cucGV4ZWxzLmNvbS9zZWFyY2gvZmFybS8&ntb=1[Accessed on: 07 April 2025.]
+
+
+
+ Link: https://github.com/NtandoNondyola
