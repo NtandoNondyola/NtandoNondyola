@@ -126,9 +126,9 @@ This website and its content are owned and managed by Ntando Agriculture. Unauth
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/NtandoAgriculture.git
+   [git clone [https://github.com/your-username/NtandoAgriculture.git
    cd NtandoAgriculture](https://github.com/NtandoNondyola)
-   
+   ](https://github.com/NtandoNondyola)
  🙌 Acknowledgements
 Designed and developed by Ntando Nonjola
 Inspired by South African agricultural growth and innovation
