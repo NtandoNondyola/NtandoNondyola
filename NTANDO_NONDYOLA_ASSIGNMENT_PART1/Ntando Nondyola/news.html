@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>News & Events - Ntando Agriculture</title>
+    <meta
+      name="keywords"
+      content="Ntando Agriculture, farming news, livestock updates, sustainable agriculture, South African agriculture, agricultural events, farm expansion, community farming, school tours, cattle rearing, Free State agriculture, farm awards"
+    />
     <link rel="stylesheet" href="FarmCss/Style.css" />
   </head>
   <body>
@@ -20,6 +24,31 @@
       <a href="contact.html">Contact</a>
       <a href="news.html">News</a>
     </nav>
+
+    <!-- Search Bar -->
+    <section style="margin: 20px 0">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search News & Events..."
+        style="padding: 8px; width: 250px"
+      />
+      <button
+        onclick="handleSearch()"
+        style="
+          padding: 8px 12px;
+          margin-left: 5px;
+          background-color: #4caf50;
+          color: white;
+          border: none;
+          cursor: pointer;
+        "
+      >
+        Search
+      </button>
+      <p id="searchAnswer" style="font-style: italic; margin-top: 10px"></p>
+    </section>
+
     <h1>News & Events</h1>
     <p>
       Stay informed with the latest updates, achievements, and events from
@@ -27,7 +56,7 @@
     </p>
 
     <h2>Recent News</h2>
-    <ul>
+    <ul id="newsList">
       <li>
         <strong>March 2025:</strong> Ntando Agriculture expands its cattle
         farming operations, adding a new breed to its livestock collection.
@@ -43,7 +72,7 @@
     </ul>
 
     <h2>Upcoming Events</h2>
-    <ul>
+    <ul id="eventsList">
       <li>
         <strong>10 April 2025:</strong> Hosting a farm tour for school students
         to educate them on sustainable agriculture and ethical cattle rearing.
@@ -60,8 +89,12 @@
       Want to know more or participate in our events? Visit our
       <a href="contact.html">Contact Us</a> page to get in touch!
     </p>
+
     <footer>
       <p>&copy; 2025 Ntando Agriculture. All Rights Reserved.</p>
     </footer>
+
+    <!-- JavaScript: Search -->
+    <script src="Javascript/news.js"></script>
   </body>
 </html>

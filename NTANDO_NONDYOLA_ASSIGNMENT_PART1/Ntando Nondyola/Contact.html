@@ -3,9 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact - Ntando Agriculture</title>
+    <title>
+      Contact - Ntando Agriculture | Farming Innovation in Bloemfontein
+    </title>
+
+    <!-- SEO Tags -->
+    <meta
+      name="description"
+      content="Contact Ntando Agriculture in Bloemfontein. Reach out for inquiries about our livestock and farming technologies. Visit us at 118 Henry St, Bloemfontein 9301 and Romagnola Cattle Breeders Society."
+    />
+    <meta
+      name="keywords"
+      content="Ntando Agriculture, Bloemfontein farming, livestock, South Africa agriculture, farm technology, 118 Henry Street, Romagnola Cattle Breeders Society, cattle farm"
+    />
+    <meta name="author" content="Ntando Agriculture Team" />
     <link rel="stylesheet" href="FarmCss/Style.css" />
   </head>
+
   <body>
     <header>
       <h1>Ntando Agriculture</h1>
@@ -20,6 +34,7 @@
       <a href="contact.html">Contact</a>
       <a href="news.html">News</a>
     </nav>
+
     <div class="container">
       <h1>Contact Us</h1>
       <p>If you have inquiries regarding our livestock, please reach out to:</p>
@@ -29,12 +44,16 @@
         <p><strong>Phone:</strong> +27 893 456 789</p>
         <p><strong>Email:</strong> ntando.nonjola@ntandoagriculture.co.za</p>
       </div>
-      <form action="submit_form.php" method="post">
+
+      <form id="contactForm" action="submit_form.php" method="post">
         <label for="name">Your Name:</label><br />
         <input type="text" id="name" name="name" required /><br /><br />
 
         <label for="email">Your Email:</label><br />
         <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="phone">Your Phone Number:</label><br />
+        <input type="number" id="phone" name="phone" required /><br /><br />
 
         <label for="message">Your Message:</label><br />
         <textarea id="message" name="message" rows="5" required></textarea
@@ -42,9 +61,28 @@
 
         <button type="submit" class="btn">Send Message</button>
       </form>
+
+      <button id="viewLocationBtn" class="btn" style="margin-top: 1rem">
+        View Our Location
+      </button>
+      <div id="map" style="height: 400px; width: 100%; margin-top: 2rem"></div>
     </div>
+
     <footer>
-      <p>&copy; 2025 Ntando Agriculture. All Rights Reserved.</p>
+      <p>
+        &copy; <span id="year"></span> Ntando Agriculture. All Rights Reserved.
+      </p>
     </footer>
+
+    <script src="Javascript/Contact.js"></script>
+    <iframe
+      src="https://www.google.com/maps?q=118+Henry+St,+Bloemfontein&output=embed"
+      width="100%"
+      height="400"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+    >
+    </iframe>
   </body>
 </html>

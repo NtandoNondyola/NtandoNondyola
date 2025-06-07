@@ -21,43 +21,86 @@
       <a href="news.html">News</a>
     </nav>
 
+    <!-- Search Bar -->
+    <section style="margin: 20px">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search Our Work..."
+        style="padding: 8px; width: 250px"
+      />
+      <button
+        onclick="handleSearch()"
+        style="
+          padding: 8px 12px;
+          margin-left: 5px;
+          background-color: #4caf50;
+          color: white;
+          border: none;
+          cursor: pointer;
+        "
+      >
+        Search
+      </button>
+      <p id="searchAnswer" style="font-style: italic; margin-top: 10px"></p>
+    </section>
+
     <section class="our-work">
       <div class="container">
         <h2>Our Work: Growing with Purpose</h2>
-        <p>At Ntando Agriculture, we don’t just grow food we grow futures. Rooted in sustainability, innovation, and community, our work is transforming how agriculture serves people, the planet, and prosperity in South Africa.</p>
-    
+        <p>
+          At Ntando Agriculture, we don’t just grow food we grow futures. Rooted
+          in sustainability, innovation, and community, our work is transforming
+          how agriculture serves people, the planet, and prosperity in South
+          Africa.
+        </p>
+
         <div class="work-highlights">
           <div class="highlight">
-            
             <h3>🚜 Sustainable Crop Farming</h3>
-            <p>We grow organic fruits and vegetables using eco-friendly methods that protect soil health and water resources.</p>
+            <p>
+              We grow organic fruits and vegetables using eco-friendly methods
+              that protect soil health and water resources.
+            </p>
           </div>
           <div class="highlight">
-            
-            <p>Our produce is delivered fresh to households, schools, restaurants, and retail outlets across Bloemfontein.</p>
+            <p>
+              Our produce is delivered fresh to households, schools,
+              restaurants, and retail outlets across Bloemfontein.
+            </p>
           </div>
           <div class="highlight">
-            
             <h3>🤝 Empowering Communities</h3>
-            <p>We train and mentor local youth and smallholder farmers to grow sustainably and independently.</p>
+            <p>
+              We train and mentor local youth and smallholder farmers to grow
+              sustainably and independently.
+            </p>
           </div>
           <div class="highlight">
-            
             <h3>🎓 Educational Outreach</h3>
-            <p>We inspire the next generation of farmers through training, tech integration, and agricultural education.</p>
+            <p>
+              We inspire the next generation of farmers through training, tech
+              integration, and agricultural education.
+            </p>
           </div>
         </div>
-    
+
         <div class="why-it-matters">
           <h3>🌍 Why It Matters</h3>
           <ul>
-            <li> Fresh & Organic – No harmful chemicals. Just real, healthy food.</li>
-            <li> Locally Sourced – Supporting South African farmers and economies.</li>
-            <li> Eco-Conscious – Farming with love for the earth.</li>
-            <li> Future-Focused – Building skills and hope for the next generation.</li>
+            <li>
+              Fresh & Organic – No harmful chemicals. Just real, healthy food.
+            </li>
+            <li>
+              Locally Sourced – Supporting South African farmers and economies.
+            </li>
+            <li>Eco-Conscious – Farming with love for the earth.</li>
+            <li>
+              Future-Focused – Building skills and hope for the next generation.
+            </li>
           </ul>
         </div>
-    
+
         <div class="target-audience">
           <h3>Who We Serve</h3>
           <ul>
@@ -67,7 +110,7 @@
             <li>💼 Agriculture investors & sponsors</li>
           </ul>
         </div>
-    
+
         <div class="cta-buttons">
           <a href="#produce" class="btn">Explore Our Produce</a>
           <a href="#partner" class="btn">Partner With Us</a>
@@ -75,10 +118,12 @@
         </div>
       </div>
     </section>
-    
 
     <footer>
       <p>&copy; 2025 Ntando Agriculture. All Rights Reserved.</p>
     </footer>
+
+    <!-- Optional: Same search logic -->
+    <script src="Javascript/products.js"></script>
   </body>
 </html>
